@@ -14,7 +14,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 100px;
   width: 100%;
 }
 .card {
@@ -26,7 +26,7 @@ body {
 }
 h1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #fff;
 }
 .label-float input {
@@ -36,15 +36,15 @@ h1 {
   background: none;
   padding: 5px;
   outline: none;
-  min-width: 240px;
+  min-width: 300px;
   font-size: 16px;
   transition: all 0.3s ease-out;
 }
 .label-float {
   position: relative;
   padding-top: 15px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
 .label-float input:focus {
   border-bottom: 1px solid #999;
@@ -58,7 +58,8 @@ h1 {
   transition: all 0.3s ease-out;
   pointer-events: none;
 }
-.label-float input:focus + label {
+.label-float input:focus + label,
+.label-float input:valid + label {
   font-size: 14px;
   margin-top: 0;
   color: #999;
@@ -95,4 +96,11 @@ a {
 a:hover {
   transition: all 0.3s;
   color: #020b14;
+}
+.fa-eye {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
 }

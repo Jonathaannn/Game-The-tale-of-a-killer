@@ -5,12 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- CSS Pessoal -->
+    <link rel="stylesheet" href="../style/login.css">
+    <link rel="stylesheet" href="../style/cads.css">
     <title>Cadastro</title>
 </head>
 
 <body>
+
+    <div class="container">
+        <div class="card">
+            <h1>Cadastro</h1>
+            <div class="label-float">
+                <input type="text" placeholder="" required id="nome">
+                <label for="nome">Nome</label>
+            </div>
+            <div class="label-float">
+                <input type="text" placeholder="" required id="usuario">
+                <label for="usuario">Usuário</label>
+            </div>
+            <div class="label-float">
+                <input type="password" placeholder="" required id="cadSenha">
+                <label for="senha">Senha</label>
+                <i id="senha" class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+            <div class="label-float">
+                <input type="password" placeholder="" required id="confirme">
+                <label for="confirme">Confirme a senha</label>
+                <i id="confsenha" class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+            <div>
+                <button class="botao" style="margin-bottom: 10px;" type="submit">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/view-pass.js"></script>
 
 </body>
 
