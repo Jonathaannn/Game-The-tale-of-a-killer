@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  background-color: #020b14;
+}
+nav {
+  background-color: #1e2c39;
+  box-shadow: 0 0 10px #0a1016;
+}
+.btn,
+.btn:hover {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.btn:hover {
+  background-color: #020b14;
+}
+section {
+  background-color: #0d1c2b;
+  border-radius: 5px;
+}
+.template {
+  background-color: #203549;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+}
+.template img {
+  border-radius: 5px;
+}
+.card {
+  background-color: #203549;
+  color: #fff;
+}
+footer {
+  background-color: #1e2c39;
+  color: #fff;
+  padding: 10px;
+}
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+footer a:hover {
+  color: #ccc;
+}
