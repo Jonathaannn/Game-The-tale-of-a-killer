@@ -22,18 +22,20 @@
 
             <div class="label-float">
                 <input type="text" placeholder="" required id="usuario">
-                <label for="usuario">Usuário</label>
+                <label id="userLabel" for="usuario">Usuário</label>
             </div>
             <div class="label-float">
                 <input type="password" placeholder="" required id="senha">
-                <label for="senha">Senha</label>
+                <label id="senhaLabel" for="senha">Senha</label>
             </div>
             <div>
-                <button type="submit">Entrar</button>
+                <button type="submit" onclick="entrar()">Entrar</button>
             </div>
             <p>Não possui uma conta? <a href="pages/cads.html">Cadastre-se.</a></p>
         </div>
     </div>
+
+    <script src="scripts/login.js"></script>
 
 </body>
 
