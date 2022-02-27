@@ -97,10 +97,11 @@ a:hover {
   transition: all 0.3s;
   color: #020b14;
 }
-.fa-eye {
-  position: absolute;
-  top: 15px;
-  right: 10px;
-  cursor: pointer;
-  color: #fff;
+#msgError {
+  color: #dd0000;
+  background-color: #ffbbbb;
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+  text-align: center;
 }
