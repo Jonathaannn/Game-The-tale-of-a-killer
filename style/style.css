@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +9,17 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 500;
+  font-size: 16px;
   background-color: #020b14;
 }
 nav {
   background-color: #1e2c39;
   box-shadow: 0 0 10px #0a1016;
+}
+nav #img {
+  display: inline-block;
+  width: 84px;
+  border-radius: 5px;
 }
 .btn,
 .btn:hover {
@@ -21,6 +28,14 @@ nav {
 }
 .btn:hover {
   background-color: #020b14;
+}
+.cursive {
+  display: inline-block;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.6em;
+}
+#logado {
+  font-size: 1.8em;
 }
 section {
   background-color: #0d1c2b;
